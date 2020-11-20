@@ -1,0 +1,50 @@
+{
+    "name": "react-pkm",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@rocketseat/unform": "^1.6.2",
+        "@unform/core": "^2.1.3",
+        "@unform/web": "^2.1.3",
+        "axios": "^0.20.0",
+        "date-fns": "^2.16.1",
+        "history": "^5.0.0",
+        "immutability-helper": "^3.1.1",
+        "npm-check-updates": "^7.0.4",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-modal": "^3.11.2",
+        "react-redux": "^7.2.1",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^3.4.2",
+        "reactotron-react-js": "^3.3.7",
+        "reactotron-redux": "^3.1.3",
+        "reactotron-redux-saga": "^4.2.3",
+        "redux": "^4.0.5",
+        "redux-persist": "^6.0.0",
+        "redux-saga": "^1.1.3",
+        "reduxsauce": "^1.2.0",
+        "styled-components": "^5.2.0",
+        "wowjs": "^1.1.3",
+        "yup": "^0.29.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "devDependencies": {
+        "node-sass": "^4.14.1"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
