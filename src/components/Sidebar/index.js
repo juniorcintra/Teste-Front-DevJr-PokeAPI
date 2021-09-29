@@ -5,8 +5,6 @@ import { Container, Item } from "./styles";
 import plusIcon from "../../assets/images/plus.png";
 
 function Sidebar({ data }) {
-  console.tron.log(data);
-
   return (
     <Container>
       {data.length <= 6 &&
@@ -16,7 +14,7 @@ function Sidebar({ data }) {
 
       {data.length < 6 && <Item>?</Item>}
 
-      <Button icon={<img src={plusIcon} alt="+" />} />
+      {data.length < 6 && <Button icon={<img src={plusIcon} alt="+" />} />}
     </Container>
   );
 }
